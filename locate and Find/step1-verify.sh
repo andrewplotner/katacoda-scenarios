@@ -1,0 +1,1 @@
+find locate && echo "done"

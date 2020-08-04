@@ -1,0 +1,42 @@
+{
+    "title": "Locate and Find Lab",
+    "description": "To introduce users to the locate and find utilities",
+    "noindex": true,
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1 - Yum provides and install",
+                "text": "step1.md",
+                "verify": "step1-verify.sh"
+            },
+            {
+                "title": "Step 2 - Find a file",
+                "text": "step2.md",
+                "answer": "step2-answer.md"
+            },
+            {
+                "title": "Step 3 - add a user",
+                "text": "step1.md",
+                "verify": "step1-verify.sh"
+            },
+            {
+                "title": "Step 4 - Find by user",
+                "text": "step4.md",
+                "verify": "step4-verify.sh"
+            },
+            {
+                "title": "Step 5 - Find by time",
+                "text": "step1.md",
+                "verify": "step1-verify.sh"
+            },
+        ]
+    },
+    "environment": {
+        "hideintro": true,
+        "hidefinish": true,
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "imageid": "TBC"
+    }
+}
