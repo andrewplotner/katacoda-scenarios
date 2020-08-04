@@ -1,7 +1,9 @@
-This is your first step.
+The Locate tool is not installed natively utilize the yum provides command to discover what package you need to install and install it. 
 
 ## Task
 
-This is an _example_ of creating a scenario and running a **command**
+`yum provides locate'`{{execute}}
 
-`echo 'Hello World'`{{execute}}
+Now that you know what the package is that provides locate install it using yum.
+
+`yum install mlocate'`{{execute}}
