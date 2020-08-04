@@ -28,7 +28,7 @@
                 "title": "Step 5 - Find by time",
                 "text": "step5.md",
                 "verify": "step5-verify.sh"
-            },
+            }
         ]
     },
     "environment": {
