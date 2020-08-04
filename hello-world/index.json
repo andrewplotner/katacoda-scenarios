@@ -10,7 +10,7 @@
     }],
     "steps": [{
       "title": "Step 2 - search for the motd file on the system",
-      "text": "step2.md"
+      "text": "step1.md"
     }],
     "intro": {
       "text": "intro.md",
