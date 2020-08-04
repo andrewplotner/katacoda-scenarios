@@ -35,6 +35,6 @@
         "uilayout": "terminal"
     },
     "backend": {
-        "imageid": "TBC"
+        "imageid": "centos7"
     }
 }
