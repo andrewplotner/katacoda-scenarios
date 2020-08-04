@@ -6,4 +6,4 @@ The Locate tool is not installed natively utilize the yum provides command to di
 
 Now that you know what the package is that provides locate install it using yum.
 
-`yum provides locate'`{{execute}}
+`yum install mlocate'`{{execute}}
