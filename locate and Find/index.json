@@ -5,7 +5,7 @@
     "details": {
         "steps": [
             {
-                "title": "Step 1 - Yum provides and install",
+                "title": "Step 1 - Yum",
                 "text": "step1.md",
                 "answer": "step1-answer.md",
                 "verify": "step1-verify.sh"
@@ -15,7 +15,7 @@
                 "text": "step2.md"
             },
             {
-                "title": "Step 3 - add a user",
+                "title": "Step 3 - Add a user",
                 "text": "step1.md",
                 "verify": "step1-verify.sh"
             },
