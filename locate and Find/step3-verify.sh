@@ -1,1 +1,1 @@
-id mary && echo "done"
+id mary && echo done
