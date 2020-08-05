@@ -1,1 +1,1 @@
-cd /var/lib/mlocate && echo "done"
+cd /var/lib/mlocate && echo done
