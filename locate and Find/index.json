@@ -22,6 +22,8 @@
             {
                 "title": "Step 4 - Find by user",
                 "text": "step4.md"
+                "answer": "step4-answer.md"
+                "verify": "step4-verify.sh"
             },
             {
                 "title": "Step 5 - Find by time",
