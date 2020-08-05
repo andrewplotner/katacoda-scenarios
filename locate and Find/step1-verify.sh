@@ -1,1 +1,1 @@
-find locate && echo "done"
+locate *.log && echo "done"
