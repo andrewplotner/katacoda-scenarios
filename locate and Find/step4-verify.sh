@@ -1,5 +1,1 @@
-cd /home/mary/
-touch test
-echo done > test
-cat .bashrc > test
-echo < cat test
+echo done && cat /home/mary/.bashrc
