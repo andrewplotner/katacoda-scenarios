@@ -1,1 +1,1 @@
-Try <pre> find / -user Mary -type f -exec cat {}  \; </pre>
+Try <pre> find / -user Mary -type f </pre>
