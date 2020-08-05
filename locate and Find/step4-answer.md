@@ -1,1 +1,1 @@
-Try <pre> find / -user Mary -type f </pre>
+Try <pre> find / -user mary -type f </pre>
