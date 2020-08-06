@@ -27,7 +27,6 @@
         ]
     },
     "environment": {
-        "hideintro": true,
         "uilayout": "terminal"
     },
     "backend": {
