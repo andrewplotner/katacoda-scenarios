@@ -12,12 +12,14 @@
 function check-file(){
 
 	FILE=$1
-	if test -f "$FILE"; then
+	if test -e "$FILE"; then
     	echo done
+	else
+	exit 1
 	fi
 }
 
 
----------------function call section----------------------
+#---------------function call section----------------------
 
 check-file /root/logs.tar
