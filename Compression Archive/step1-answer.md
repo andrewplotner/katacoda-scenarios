@@ -1,2 +1,2 @@
-cd /root
-tar -cvf logs.tar /var/log
+<pre>cd /root</pre>
+<pre>tar -cvf logs.tar /var/log</pre>
