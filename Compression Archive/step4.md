@@ -1,1 +1,1 @@
-Decompress the tar file into a new directory called "/root/var/log "
+Decompress the tar file while in the root home directory
