@@ -1,1 +1,1 @@
-tar -tf /root/logs.tar && tar -tf /root/logs.tar > /root/verify.sh
+tar -tf /root/logs.tar && tar -tf /root/logs.tar > /root/verify.txt
