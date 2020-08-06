@@ -1,2 +1,1 @@
-yum install bzip2
-bzip2 user-logs.tar
+star -bz -x f=user-logs.tar.bz2
