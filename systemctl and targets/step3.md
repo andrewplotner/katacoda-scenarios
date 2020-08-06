@@ -1,16 +1,10 @@
 <pre>View all active services on the system </pre>
 >>Q1: How many are there?<<
-(*) 46
-( ) 90
-( ) 73
-( ) 121
+=~= 5
 
 <pre> View all active and inactive services on the system</pre>
 >>Q2: how many are there?<<
-( ) 46
-(*) 90
-( ) 73
-( ) 121
+=~= 1
 
 >>Q3: What is the status of the ssh.service?<<
 (*) active (running)
