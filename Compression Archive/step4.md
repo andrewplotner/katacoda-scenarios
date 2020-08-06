@@ -1,1 +1,1 @@
-Using gzip, compress the tar file
+Decompress the tar file
