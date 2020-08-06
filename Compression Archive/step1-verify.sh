@@ -29,4 +29,4 @@ function check-file(){
 
 #---------------function call section----------------------
 
-check-file /root/logs.tar  && echo done
+[ -f /root/logs.tar ] && echo "done"
