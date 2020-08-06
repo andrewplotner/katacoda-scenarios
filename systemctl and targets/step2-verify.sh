@@ -1,2 +1,2 @@
-if systemctl get-default | grep mul ; then echo done ; fi 
+if systemctl get-default | grep gra ; then vi test ; fi && echo done
 
