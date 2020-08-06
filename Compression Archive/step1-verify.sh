@@ -20,7 +20,7 @@ function check-file(){
 
 	FILE=$1
 	if test -e "$FILE"; then
-    	echo done
+    	exit 0
 	else
 	exit 1
 	fi
@@ -29,4 +29,4 @@ function check-file(){
 
 #---------------function call section----------------------
 
-check-file /root/logs.tar
+check-file /root/logs.tar  && echo done
