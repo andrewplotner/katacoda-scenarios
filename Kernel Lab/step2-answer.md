@@ -1,1 +1,2 @@
-tar -tf /root/logs.tar 
+<pre>dracut</pre>
+<pre>grub2-set-default</pre>
