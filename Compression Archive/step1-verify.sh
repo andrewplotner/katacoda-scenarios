@@ -20,7 +20,7 @@ function check-file(){
 
 	FILE=$1
 	if test -e "$FILE"; then
-    	exit 0
+    	echo done
 	else
 	exit 1
 	fi
