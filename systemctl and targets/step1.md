@@ -4,7 +4,7 @@
 
 <pre> View all active and inactive targets on the system</pre>
 >>Q2: how many are there?<<
-=~= 2
+=~= 2 || 3
 
 >>Q3: What is your default target?<<
 ( ) multi-user.target
