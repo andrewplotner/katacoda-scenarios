@@ -1,1 +1,3 @@
-While working in the user root's home directory, create a tar archive of the entire /var/log directory and name the tar file "logs.tar".
+While working in the  <pre>root's home directory</pre>
+create a tar archive of the entire directory <pre> /var/log </pre>
+name the tar file <pre> "logs.tar"</pre>.
