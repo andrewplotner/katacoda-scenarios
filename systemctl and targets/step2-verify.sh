@@ -1,1 +1,1 @@
-[ -e /root/verify.txt ] && echo done
+[ -e /root/verify.txt ] && echo "done"
