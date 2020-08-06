@@ -1,1 +1,1 @@
-[ -d /root/var/log/var ] && echo done
+[ -d /root/var/log ] && echo done
