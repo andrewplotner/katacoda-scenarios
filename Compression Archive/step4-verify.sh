@@ -1,1 +1,1 @@
-[ -e /root/var/log/wtmp ] && echo done
+[ -d /root/var/log/var ] && echo done
