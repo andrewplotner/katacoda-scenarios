@@ -1,2 +1,2 @@
-if systemctl get-default | grep gra ; then vi test ; fi && echo done
+[ -e verify.txt ] && echo done
 
