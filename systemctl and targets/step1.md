@@ -2,14 +2,14 @@
 >>Q1: How many are there?<<
 ( ) 24
 ( ) 18
-( ) 29
+( ) 26
 (*) 21
 
 <pre> View all active and inactive targets on the system</pre>
 >>Q2: how many are there?<<
 ( ) 24
 ( ) 18
-(*) 29
+(*) 26
 ( ) 21
 
 >>Q3: What is your default target?<<
