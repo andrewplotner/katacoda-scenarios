@@ -1,2 +1,1 @@
-
-[ -e user-logs.tar ] && echo "done"
+[ -e /root/user-logs.tar ] && echo done
