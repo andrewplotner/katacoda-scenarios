@@ -6,7 +6,7 @@
 # Email:
 
 ################################
-#Description of function: checks if a file exists
+#Description: checks if a file exists
 #Arguments: file path
 #Parameters to use with test
 #-e: Returns true value if file exists.
@@ -16,17 +16,8 @@
 #-x: Return true value if file exists and is executable.
 #-d: Return true value if exists and is a directory.
 ################################
-function check-file(){
-
-	FILE=$1
-	if test -e "$FILE"; then
-    	echo done
-	else
-	exit 1
-	fi
-}
-
+#[ -e /root/logs.tar ] && echo "done"
 
 #---------------function call section----------------------
 
-[ -f /root/logs.tar ] && echo "done"
+[ -e /root/logs.tar ] && echo "done"
