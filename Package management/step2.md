@@ -1,5 +1,5 @@
-<pre> Verify apache web server is installed </pre>
-**<pre>If not installed do so now</pre>**
+**<pre> Verify apache web server is installed </pre>**
+<pre>If not installed do so now</pre>
 
 `yum list installed | grep httpd`{{execute}}
 
@@ -9,10 +9,11 @@
 (*) yum whatprovides /var/www
 ( ) yum find /var/www
 
-<pre> Update just the apache server</pre>
+**<pre> Update just the apache server</pre>**
+
 `if yum update httpd | grep "^No" ; then echo congrats ; fi`{{execute}}
 
-<pre> Now remove the apache web server package. 
+**<pre> Now remove the apache web server package. </pre>**
 
 
 
