@@ -1,1 +1,1 @@
-[ -e /bin/elinks ] && echo "done"
+[ -e /bin/elinks ] && [ -e /var/www ] && echo "done"
