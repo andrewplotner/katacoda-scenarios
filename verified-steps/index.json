@@ -1,7 +1,8 @@
 {
     "title": "Verifying user actions during scenario",
     "description": "Run checks to make sure the user can proceed. Scenario also offers user solutions if they struggle",
-    "noindex": true,
+    "difficulty": "Beginner",
+    "time": "60 minutes",
     "details": {
         "steps": [
             {
@@ -19,9 +20,9 @@
     "environment": {
         "hideintro": true,
         "hidefinish": true,
-        "uilayout": "terminal"
+        "uilayout": "terminal-terminal"
     },
     "backend": {
-        "imageid": "git"
+        "imageid": "kubernetes-cluster"
     }
 }
