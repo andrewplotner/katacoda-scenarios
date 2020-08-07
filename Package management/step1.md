@@ -10,7 +10,7 @@
 ( ) no
 
 <pre> view **information** about the apache web server package</pre>
->>Q3: What reo is the httpd package apart of according to info<<
+>>Q3: What repo is the httpd package apart of according to info<<
 (*) base/7/x86_64
 ( ) active (exited)
 ( ) inactive (dead)
