@@ -1,4 +1,6 @@
 <pre> Verify apache web server is installed </pre>
+**<pre>If not installed do so now</pre>**
+
 `yum list installed | grep httpd`{{execute}}
 
 
