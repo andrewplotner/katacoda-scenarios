@@ -1,5 +1,7 @@
 To set up a repository we first need all the packages that go along with the repository. We could download them individually using yumdownloader, but instead we will use a redhat ISO.
 
+**NOTE however that this instance of the VM is an ubuntu image due to limitations with the available centos images, use apt instead of yum**
+
 First we need to install wget. This command allows us to download files with a URL. 
 `apt install wget -y`{{execute}}
 
