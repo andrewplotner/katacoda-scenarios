@@ -1,1 +1,1 @@
-[ -e /var/www/html ] && echo "done"
+[ -e /var/wwwl ] && echo "done"
