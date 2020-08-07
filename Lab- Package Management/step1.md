@@ -1,3 +1,3 @@
 1. Update Software packages using yum
 
-2. Install Elinks & Apache
+2. Install elinks & Apache
