@@ -1,1 +1,1 @@
-[ -e /etc/yum.repos.d/epel.repo ] && echo "done"
+[ -e /var/www ] && echo "done"
