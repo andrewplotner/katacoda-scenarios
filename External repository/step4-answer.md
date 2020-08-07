@@ -1,4 +1,5 @@
-<pre># 	# cd /etc/pki/rpm-gpg; wget https://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-7 </pre>
+<pre>cd /etc/pki/rpm-gpg </pre>
+<pre>wget https://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-7 </pre>
 <pre>	
 # vim /etc/yum.repos.d/dl.fedoraproject.org_pub_epel_7_x86_64_.repo
 [dl.fedoraproject.org_pub_epel_7_x86_64_]
