@@ -4,12 +4,12 @@
 (*) yes
 ( ) no
 
-**<pre> |Search| the yum repository for the Apache web Server</pre>**
+**<pre> _Search_ the yum repository for the Apache web Server</pre>**
 >>Q2: Is mod_geoip.x86_64 apart of the package list generated as being associated with apache?<<
 (*) yes
 ( ) no
 
-**<pre> view |information| about the apache web server package</pre>**
+**<pre> view _information_ about the apache web server package</pre>**
 >>Q3: What repo is the httpd package apart of according to info<<
 (*) base/7/x86_64
 ( ) active (exited)
