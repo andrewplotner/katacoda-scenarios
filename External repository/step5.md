@@ -2,4 +2,4 @@
 
 2.Verify that it is disabled
 
-3. Delete the repository
+3.Delete the repository
