@@ -1,7 +1,7 @@
 Try to use the locate command to find the file "motd"
-`locate motd`{{execute}}
+<pre> `locate motd`{{execute}} </pre>
 Notice how it fails. This is because we need to run a command to update the cache of the system so it has something to search through.
-`updatedb`{{execute}}
+<pre> `updatedb`{{execute}} </pre>
 Now try again:
 >>Q1: where does the motd file reside on the system? <<
 (*) etc/motd
