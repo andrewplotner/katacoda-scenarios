@@ -1,1 +1,1 @@
-OUT=$( grep viper /etc/group | cut -d: -f1 ) && IN=$( echo -e "viper\ngalactica\ncolonial-one" ) && [[ $OUT == $IN ]] && FOO=$( groups starbuck | cut-d: -f2 ) && [[ $FOO == " galactica" ]] && echo done
+OUT=$( grep viper /etc/group | cut -d: -f1 ) && IN=$( echo -e "viper\ngalactica\ncolonial-one" ) && [[ $OUT == $IN ]] && FOO=$( groups starbuck | cut -d: -f2 ) && [[ $FOO == " galactica" ]] && echo done
