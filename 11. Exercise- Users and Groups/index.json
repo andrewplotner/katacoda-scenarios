@@ -19,7 +19,7 @@
             {
                 "title": "Step 3 - Create a System account",
                 "text": "step3.md",
-                "answer": "step3-answer",
+                "answer": "step3-answer.md",
                 "verify": "step3-verify.sh"
 
             },
