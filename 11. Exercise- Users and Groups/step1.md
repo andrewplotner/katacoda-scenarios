@@ -1,0 +1,1 @@
+Create two new users called **<pre>starbuck </pre> and <pre>apollo</pre>**. For each user, assign the password **<pre>"student"</pre>** without quotes
