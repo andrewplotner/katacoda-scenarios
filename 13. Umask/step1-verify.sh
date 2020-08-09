@@ -1,1 +1,1 @@
-IN=$( echo "0000" ) && OUT=$(umask) && [[ $OUT == $IN ]] && exit 0 && echo done
+IN=$( echo "0000" );OUT=$(umask) ; if [[ $OUT == $IN ]]; then echo done ; fi
