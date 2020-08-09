@@ -1,0 +1,1 @@
+DOWN=$( getfacl file1 | wc ) && [[ $DOWN == *7*12* ]] && echo done
