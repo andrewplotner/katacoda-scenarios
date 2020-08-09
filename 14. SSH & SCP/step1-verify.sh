@@ -1,1 +1,1 @@
-id bob && echo done
+id bob ; echo done
