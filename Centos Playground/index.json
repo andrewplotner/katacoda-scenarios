@@ -16,7 +16,7 @@
     },
     "environment": {
         "hideintro": true,
-        "uilayout": "terminal-terminal"
+        "uilayout": "terminal"
     },
     "backend": {
         "imageid": "centos"
