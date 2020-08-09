@@ -1,1 +1,1 @@
-[ -e /tmp/file2 ] && [-e /tmp/dir2 ] && echo done
+[ -e /tmp/file2 ] && [ -e /tmp/dir2 ] && echo done
