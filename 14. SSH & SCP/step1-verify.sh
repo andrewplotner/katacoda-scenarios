@@ -1,1 +1,1 @@
-OUT=$( grep bob /etc/passwd | cut -d: -f1 ) && [[ $OUT == "bob" ]] && echo done
+id bob && echo done
