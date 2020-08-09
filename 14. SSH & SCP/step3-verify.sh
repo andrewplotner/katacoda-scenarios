@@ -1,1 +1,1 @@
-[ -e /home/bob/.ssh/id_rsa ] && echo done
+ssh controlplane [ -e /home/bob/.ssh/id_rsa ] && echo done
