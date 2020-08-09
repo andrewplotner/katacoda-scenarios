@@ -4,4 +4,4 @@ Open a second terminal window for the lab server (+ button above terminal), and 
 
 Ensure you're working as a priviledged user (sudo) or root user while perofrming the lab in the main terminal.
 
-The starbuck user will be used to test setting the permissions
+The starbuck user can be used to test and verify permissions
