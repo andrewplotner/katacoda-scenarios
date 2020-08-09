@@ -1,1 +1,1 @@
-OUT=$(umask) && [[ $OUT == "0000" ]] && echo "done"
+IN=$( echo "0000" ) && OUT=$(umask) && [[ $OUT == $IN ]] && echo "done"
