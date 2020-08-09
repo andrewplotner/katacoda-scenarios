@@ -1,1 +1,1 @@
-IN=$( echo "0000" ) && OUT=$( umask | grep 0 ) && [[ $OUT == $IN ]] && echo done
+OUT=$( umask | grep 0 ) && [[ $OUT == "0000" ]] && echo done
