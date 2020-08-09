@@ -1,1 +1,1 @@
- id bob && echo done
+ssh node01 id bob && echo done
