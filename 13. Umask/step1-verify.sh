@@ -1,1 +1,1 @@
-OUT=$( umask ) && [[ $OUT == * ]] && echo done
+OUT=$( umask ) && [[ $OUT == "0000" ]] && echo done
