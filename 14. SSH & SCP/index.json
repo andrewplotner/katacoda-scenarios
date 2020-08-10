@@ -32,6 +32,18 @@
                 "text": "step5.md",
                 "answer": "step5-answer.md",
                 "verify": "step5-verify.sh"
+            },
+            {
+                "title": "Step 6 - SCP",
+                "text": "step6.md",
+                "answer": "step6-answer.md",
+                "verify": "step6-verify.sh"
+            },
+            {
+                "title": "Step 7 - SFTP",
+                "text": "step7.md",
+                "answer": "step7-answer.md",
+                "verify": "step7-verify.sh"
             }
         ]
     },
