@@ -1,2 +1,2 @@
-<pre> Set the default permissions on dir1 to read, write and execute for the starbuck user; execute only if it is a directory.</pre>
+<pre> Set the default permissions for user starbuck on dir1 to read, write and execute (but only if it is a directory) </pre>
 
