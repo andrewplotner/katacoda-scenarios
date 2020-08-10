@@ -3,3 +3,5 @@
 <pre> Create two mount points /mnt/mymount1 and /mnt/mymount2 </pre>
 
 <pre> Mount /dev/vda1 to /mnt/mymount1 and /dev/vda2 to /mnt/mymount2 </pre>
+
+<pre> Run lsblk to confirm- no verification on this step </pre>
