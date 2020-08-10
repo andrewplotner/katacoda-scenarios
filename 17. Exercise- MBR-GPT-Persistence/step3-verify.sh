@@ -1,0 +1,1 @@
+OUT=$( cat /etc/fstab | grep /mnt/mymount1 ) && [[ $OUT == UUID* ]] && IN=$( cat /etc/fstab | grep /mnt/mymount2 ) && [[ $IN == UUID* ]]echo done
