@@ -1,3 +1,5 @@
+**<pre> NOTICE: THIS STEP HAS NO VERIFICATION, THESE STEPS MUST BE PERFORMED FOR STEP TWO TO PROGRESS PAST STEP 2 </pre>**
+
 <pre> You will notice that you have two screens. The top terminal is server 1 and goes by the hostname "controlplane". 
 The bottom terminal is server 2 and goes by the hostname node01. </pre>
 
