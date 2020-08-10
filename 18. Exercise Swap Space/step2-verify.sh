@@ -1,0 +1,1 @@
+[ -e /dev/vdb1 ] && echo done
