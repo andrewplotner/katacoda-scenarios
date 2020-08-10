@@ -15,7 +15,7 @@
                 "answer": "step2-answer.md"
             },
             {
-                "title": "Step 3 - CMake that mount persistent",
+                "title": "Step 3 - Make that mount persistent",
                 "text": "step3.md",
                 "answer": "step3-answer.md",
                 "verify": "step3-verify.sh"
