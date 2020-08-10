@@ -1,1 +1,1 @@
-ssh node01 && [ -e /home/bob ] && echo done
+ssh bob@node01 && [ -e /home/bob ] && echo done
