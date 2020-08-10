@@ -22,9 +22,9 @@
                 "verify": "step3-verify.sh"
             },
             {
-                "title": "Step4 Make it persistent",
+                "title": "Step 4 - Make it Persistent",
                 "text": "step4.md",
-                "answer": "step4-answer.md,
+                "answer": "step4-answer.md",
                 "verify": "step4-verify.sh"
             }
         ]
