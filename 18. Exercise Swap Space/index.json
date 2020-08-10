@@ -20,6 +20,12 @@
                 "text": "step3.md",
                 "answer": "step3-answer.md",
                 "verify": "step3-verify.sh"
+            },
+            {
+                "title": "Step4 Make it persistent",
+                "text": "step4.md",
+                "answer": "step4-answer.md,
+                "verify": "step4-verify.sh
             }
         ]
     },
