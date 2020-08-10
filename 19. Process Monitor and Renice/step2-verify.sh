@@ -1,1 +1,1 @@
-OUT=$( systemctl status apache2 | grep "Active: inactive" | cut -d" " -f7) && [[ $OUT == inactive ]] &&  echo done
+OUT=$( systemctl status docker | grep "Active: inactive" | cut -d" " -f7) && [[ $OUT == inactive ]] &&  echo done
