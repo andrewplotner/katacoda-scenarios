@@ -1,1 +1,1 @@
-DOWN=$( getfacl file1 | wc ) && [[ $DOWN == *7*12* ]] && echo done
+DOWN=$( ls -l /tmp | grep file1 | cut -d:" " -f1 ) && [[ $DOWN == *- ]] && echo done
