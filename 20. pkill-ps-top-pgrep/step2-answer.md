@@ -1,4 +1,5 @@
-<pre> pkill -18 -s 1 </pre>
-<pre> pkill -9 -s 1 </pre>
+<pre> kill -18 %1 </pre>
+<pre> kill -9 %1 </pre>
+
 
 
