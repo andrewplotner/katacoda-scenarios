@@ -2,7 +2,7 @@
 
 <pre> execute the following command</pre>
 
-`(while true; do echo "My Program" > ~/output.file; done) &`{{execute}}
+<pre> `(while true; do echo "My Program" > ~/output.file; done) &`{{execute}} </pre>
 
 <pre> view the current jobs running in the background of your terminal </pre>
 
