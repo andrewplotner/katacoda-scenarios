@@ -3,8 +3,8 @@
 hostname and options are as follows:
 pool ntp.ubuntu.com iburst maxsources 4
 pool 0.ubuntu.pool.ntp.org iburstmaxsources 1
-pool 1.ubuntu.pool.ntp.org	iburst maxsources 1
-pool 2.ubuntu.pool.ntp.org	iburst maxsources 2
+pool 1.ubuntu.pool.ntp.org iburst maxsources 1
+pool 2.ubuntu.pool.ntp.org iburst maxsources 2
 
 <pre> Confirm by running the sources command you used in the previous step. </pre>
 
