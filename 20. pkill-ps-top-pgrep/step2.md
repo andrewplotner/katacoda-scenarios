@@ -5,5 +5,5 @@
 <pre> Kill the process without allowing any blocking of the kill command  </pre>
 
 Verify the actions are complete with the following commad:`  
-IN=$( jobs | grep "while true" | cut -d" " -f3 ) && [[ $IN == Running || Stopped ]] && echo "Try Again" || echo "Great Job`{{execute}}
+IN=$( jobs | grep "while true" | cut -d" " -f3 ) && [[ $IN == Running || Stopped ]] && echo "Try Again" || echo "Great Job"`{{execute}}
 
