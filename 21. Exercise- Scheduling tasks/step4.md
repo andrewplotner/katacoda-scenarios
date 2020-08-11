@@ -10,4 +10,4 @@ ntp.ubuntu.com 		 maxsources 4
 <pre> Confirm by running the sources command you used in the previous step. </pre>
 
 
-Verify answer with:`RED=`tput setaf 1` ; GREEN=`tput setaf 2`; RESET=`tput sgr0`; CHECK=$( cat /etc/chrony/chrony.conf | grep "pool o.u" | cut -d" " -f3 ) && [[ $CHECK == "iburst" ]] && echo "${GREEN}Awesome Job!${RESET}" || echo "$${RED}TRY AGAIN ${RESET}"`{{execute}}
+Verify answer with:`RED=$(tput setaf 1) ; GREEN=$(tput setaf 2); RESET=$(tput sgr0); CHECK=$( cat /etc/chrony/chrony.conf | grep "pool o.u" | cut -d" " -f3 ) && [[ $CHECK == "iburst" ]] && echo "${GREEN}Awesome Job!${RESET}" || echo "$${RED}TRY AGAIN ${RESET}"`{{execute}}
