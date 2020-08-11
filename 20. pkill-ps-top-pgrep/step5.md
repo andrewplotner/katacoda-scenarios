@@ -20,4 +20,4 @@ As "user" in terminal 2 exit out of vi and run the following command:
 
 <pre> The Bash process that the user is running, is still utilizing way too much CPU, utilize top to kill it ruthlessly</pre> 
 
-verify with: `IN=$(ps axo pid,comm,nice | grep bash | grep 19 | cut -d" " -f16) && [[ $IN == 19 ]] || echo "Awesome Job!" || echo "Try Again"`{{execute}}
+verify with: `IN=$(ps axo pid,comm,nice | grep bash | grep 19 | cut -d" " -f16) && [[ $IN == 19 ]] && echo "Try Again" || echo "Awesome Job!"`{{execute}}
