@@ -11,4 +11,4 @@
 
 <pre> Run the chronyc service command again to see how that changed it </pre>
 
-Verify answer with:`RED=`tput setaf 1` ; GREEN=`tput setaf 2`; RESET=`tput sgr0`; CHECK=$( cat /etc/chrony/chrony.conf | grep "pool o.u" | cut -d" " -f3 ) && [[ $CHECK == "iburst" ]] && echo "${RED}TRY AGAIN ${RESET}" || echo "${GREEN}Awesome Job!${RESET}"`{{execute}}
+Verify answer with:`RED=$(tput setaf 1) ; GREEN=$(tput setaf 2); RESET=$(tput sgr0); CHECK=$( cat /etc/chrony/chrony.conf | grep "pool o.u" | cut -d" " -f3 ) && [[ $CHECK == "iburst" ]] && echo "${RED}TRY AGAIN ${RESET}" || echo "${GREEN}Awesome Job!${RESET}"`{{execute}}
