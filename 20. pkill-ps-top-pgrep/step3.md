@@ -12,3 +12,4 @@
 
 <pre>5. go back to terminal 1 where you are root and grep for all processes under the user "user" </pre>
 
+Verify actions are completed with the following commpand: `IN=$( pgrep -u user -l| grep "vim" | cut -d" " -f2 ) && [[ $IN == vim ]] && echo "Great Job" || echo "Try Again"`{{execute}}
