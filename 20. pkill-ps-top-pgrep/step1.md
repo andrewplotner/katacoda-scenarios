@@ -1,8 +1,6 @@
 **<pre> This command may eventually lock up the machine if it left running too long.</pre>**
 
-<pre> execute the following command</pre>
-
-" (while true; do echo "My Program" > ~/output.file; done) & " 
+Execute the following command `(while true; do echo "My Program" > ~/output.file; done) &`{{execute}}  
 
 <pre> view the current jobs running in the background of your terminal </pre>
 
