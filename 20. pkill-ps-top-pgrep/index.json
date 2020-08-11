@@ -8,7 +8,7 @@
                 "title": "Step 1 - stop with kill",
                 "text": "step1.md",
                 "answer": "step1-answer.md",
-                "verify": "step2-verify.sh"
+                "verify": "step1-verify.sh"
             },
             {
                 "title": "Step 2 - start and terminate with kill",
