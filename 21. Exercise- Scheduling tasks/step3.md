@@ -11,4 +11,4 @@ run the `cronyc sources -v`{{execute}} command to view all the time servers avai
 
 <pre> Run the chronyc sources command again to see how that changed it </pre>
 
-Verify answer with:`RED=$(tput setaf 1) ; GREEN=$(tput setaf 2); RESET=$(tput setaf 7); CHECK=$( cat /etc/chrony/chrony.conf | grep "pool o.u" | cut -d" " -f3 ) && [[ $CHECK == "iburst" ]] && echo "${RED}TRY AGAIN ${RESET}" || echo "${GREEN}Awesome Job!${RESET}"`{{execute}}
+Verify answer with:`CHECK=$( cat /etc/chrony/chrony.conf | grep "pool o.u" | cut -d" " -f3 ) && [[ $CHECK == "iburst" ]] && echo "${RED}TRY AGAIN ${RESET}" || echo "${GREEN}Awesome Job!${RESET}"`{{execute}}
