@@ -10,4 +10,4 @@ run the `cronyc sources -v`{{execute}} command to view all the time servers avai
 <pre> Start ntp services and restart your chrony through systemctl </pre>
 <pre> Run the chronyc sources command again to see how that changed it </pre>
 
-Verify answer with:`CHECK=$( cat /etc/chrony/chrony.conf | grep "pool o.u" | cut -d" " -f3 ) && [[ $CHECK == "iburst" ]] && echo "${RED}TRY AGAIN ${RESET}" || echo "${GREEN}Awesome Job!${RESET}"`{{execute}}
+Verify answer with:`CHECK=$( cat /etc/chrony/chrony.conf | grep "pool o.u" | cut -d" " -f3 ) && [[ $CHECK != "iburst" ]] && echo "${GREEN}Awesome Job!${RESET}" || echo "${RED}TRY AGAIN ${RESET}"`{{execute}}
