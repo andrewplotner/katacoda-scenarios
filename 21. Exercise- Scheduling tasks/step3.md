@@ -4,11 +4,10 @@
 [ ] /etc/network.service
 [*] /etc/ntp.conf
 
-<pre> restart your ntp service </pre>
-run the `cronyc sources -v`{{execute}} command to view all the time servers available to you. </pre>
+run the `cronyc sources -v`{{execute}} command to view all the time servers available to you. 
+<pre> Open up /etc/chrony/chrony.conf and remove the 4 pools of servers </pre>
 
-<pre> Open up /etc/chrony/chrony.conf and remove the 4 pools of servers
-
+<pre> Start ntp services and restart your chrony through systemctl </pre>
 <pre> Run the chronyc sources command again to see how that changed it </pre>
 
 Verify answer with:`CHECK=$( cat /etc/chrony/chrony.conf | grep "pool o.u" | cut -d" " -f3 ) && [[ $CHECK == "iburst" ]] && echo "${RED}TRY AGAIN ${RESET}" || echo "${GREEN}Awesome Job!${RESET}"`{{execute}}
