@@ -4,7 +4,7 @@
 <pre>1. Use pgrep to grep for all processes that are running as the root user and display the process names</pre>
 
 >>Q2: What is the first program being run by root?<<
-=== "systemd"
+=== systemd
 
 <pre>3. open up a second terminal window, add a user called "user"</pre>
 
