@@ -17,8 +17,7 @@
             {
                 "title": "Step 3 - pgrep for processes",
                 "text": "step3.md",
-                "answer": "step3-answer.md",
-                "verify": "step3-verify.sh"
+                "answer": "step3-answer.md"
             },
             {
                 "title": "Step 4 - kill processes by user",
