@@ -1,5 +1,5 @@
 
-<pre> as "user" in terminal 2 exit out of vi and run the following command: </pre>
+As "user" in terminal 2 exit out of vi and run the following command:
 `(while true; do echo "My program" > ~/output.file; done) &`{{execute}}
 
 <pre> Go back to terminal 1 as root and view the processes that user is running using top</pre>
