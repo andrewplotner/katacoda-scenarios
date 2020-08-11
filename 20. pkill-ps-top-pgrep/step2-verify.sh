@@ -1,1 +1,1 @@
-IN=$( jobs | grep "while true" | cut -d" " -f3 ) && [[ $IN == Stopped || Running ]] && echo failed || echo done
+IN=$( jobs | grep "while true" | cut -d" " -f3 ) && [[ $IN == Killed ]] && echo done
