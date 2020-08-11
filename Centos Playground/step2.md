@@ -10,7 +10,7 @@ execute them in order to understand navigation through the system.
 
 `cat testfile.txt`{{execute}} prints the text in the file to the shell screen
 
-`mkdir -p /new/directory/paths`{{execute}} this makes a new directory path
+`mkdir -p ./new/directory/paths`{{execute}} this makes a new directory path
 
 `ls`{{execute}} lists what is in the current directory, you should be able to see testfile.txt and the newly created directory
 
