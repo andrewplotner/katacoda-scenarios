@@ -9,3 +9,5 @@
 <pre> stop the process running, _Without_ killing it, using the kill command </pre>
 
 <pre> view the stopped jobs in the background </pre>
+Test with the below command
+`IN=$( jobs | grep "while true" | cut -d" " -f3 ) && [[ $IN == Stopped ]] && echo "Great Job!" || echo "Try Again"`{{execute}}
