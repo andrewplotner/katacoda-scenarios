@@ -1,11 +1,10 @@
 <pre> Add the following sources back into the chrony.conf file </pre>
 <pre>
-All are type "pool" and all are option iburst
-hostname and maxsources are as follows:
-ntp.ubuntu.com 		 maxsources 4
-0.ubuntu.pool.ntp.org	 maxsources 1
-1.ubuntu.pool.ntp.org	 maxsources 1
-2.ubuntu.pool.ntp.org	 maxsources 2
+hostname and options are as follows:
+pool ntp.ubuntu.com iburst maxsources 4
+pool 0.ubuntu.pool.ntp.org iburstmaxsources 1
+pool 1.ubuntu.pool.ntp.org	iburst maxsources 1
+pool 2.ubuntu.pool.ntp.org	iburst maxsources 2
 
 <pre> Confirm by running the sources command you used in the previous step. </pre>
 
