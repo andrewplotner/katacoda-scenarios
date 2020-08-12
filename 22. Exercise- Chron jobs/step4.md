@@ -5,7 +5,7 @@
 
 <pre> Using the same script, schedule a cron job to run once a day using cron.daily and title it uptimelog</pre>
 
-Verify answer with:`CHECK=$( cat /etc/cron.daily | grep uptime | cut -d" " -f1 ) && [[ $CHECK == logger ]] && echo "${GREEN}Awesome, proceed ${RESET}" || echo "${RED}Try Again${RESET}"`{{execute}}
+Verify answer with:`CHECK=$( cat /etc/cron.daily/uptimelog | grep uptime | cut -d" " -f1 ) && [[ $CHECK == logger ]] && echo "${GREEN}Awesome, proceed ${RESET}" || echo "${RED}Try Again${RESET}"`{{execute}}
 
 <pre> Create a custom scheduled cron (not anacron) that runs the uptimelog every 5 minutes. 
 Hint** Past the job instructions in /etc/chron.d/uptimelog where uptime log is the job you created.  </pre>
