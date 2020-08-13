@@ -21,7 +21,6 @@
                 {"file": "deploy.sh", "target": "/tmp", "chmod": "+x"},
                 {"file": "startup.sh", "target": "/root", "chmod": "+x"}
                 ]
-            },
         },
     "environment": {
         "hideintro": true,
