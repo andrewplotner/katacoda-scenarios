@@ -18,7 +18,10 @@ Then connect to server2 using ssh to verify:
 [server1]$ ssh mary@node01
 
 Then we can extract the files:
-[server2]$ tar -xvf deploy_content.tar.gz >> tar-output.log
+First is creating the log
+[server2]$ tar -xvzf deploy_content.tar.gz >> tar-output.log
+second is actual extraction and decompression
+[server2]$ tar -xzf deploy_content.tar.gz 
 
 </pre>
 
