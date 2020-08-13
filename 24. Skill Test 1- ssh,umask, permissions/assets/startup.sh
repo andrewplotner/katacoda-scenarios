@@ -1,6 +1,6 @@
 #!/bin/bash
 
-(cd /root ;
+cd /root ;
 
 touch {a,b,c,check.sh} ;
 
@@ -11,4 +11,4 @@ useradd -m mary -p password ;
 
 GREEN=`tput setaf 2`; RESET=`tput sgr0`;
 
-tar -zcf deploy_content.tar.gz a b c check.sh ;)
+tar -zcf deploy_content.tar.gz a b c check.sh 
