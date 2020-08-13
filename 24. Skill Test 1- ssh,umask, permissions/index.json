@@ -2,7 +2,8 @@
     "title": "24. Skill Test- ssh, umask, file permissions ",
     "description": "Skill test",
     "noindex": true,
-    "details": {
+    "details": 
+    {
         "steps": 
         [
             {
@@ -25,12 +26,13 @@
             ]
         }
      },
-    "environment": {
+    "environment": 
+    {
         "hideintro": true,
         "uilayout": "terminal-terminal"
     },
-    "backend": {
+    "backend": 
+    {
         "imageid": "kubernetes-cluster"
-        }
     }
 }
