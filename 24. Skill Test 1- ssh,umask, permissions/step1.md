@@ -11,4 +11,8 @@ Copy All tar Files from `/root` into `mary's` home directory and then transfer t
 Set the Umask So That New Files Are Only Readable and Writeable by the Owner
 
 *_<pre> Objective 4 </pre>_*
+use SFTP to copy over deploy.sh from `controlpanel's` /tmp directory to `node01's` /tmp directory
+
+
+*_<pre> Objective 5 </pre>_*
 Verify that the check.sh script is executable and run it. 
