@@ -30,7 +30,7 @@ fi
 }
 
 ################checks###########################
-RESET=`tput sgr0'
+RESET=$(tput sgr0)
 
 SSHCHECK=$( ls /home/mary/.ssh | grep authorized_keys )
 
