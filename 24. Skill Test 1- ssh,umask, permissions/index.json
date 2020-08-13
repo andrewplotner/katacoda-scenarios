@@ -11,9 +11,12 @@
                 "answer": "step1-answer.md"
             }
         ],
-        "assets": {
+        "assets": 
+            {
             "host01": [
                 {"file": "deploy.sh", "target": "/tmp", "chmod": "+x"}
+                ]
+            }
     },
     "environment": {
         "hideintro": true,
