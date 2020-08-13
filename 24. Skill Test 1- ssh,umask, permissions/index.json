@@ -8,13 +8,13 @@
         [
             {
                 "title": "Step0 - Intro",
-                "text": "step0.md",
-                "code": "background.sh"
+                "text": "step0.md"
             },
             {
                 "title": "Step 1 - Skill Test",
                 "text": "step1.md",
-                "answer": "step1-answer.md"
+                "answer": "step1-answer.md",
+                "code": "background.sh"
             }
         ],
         "assets":
