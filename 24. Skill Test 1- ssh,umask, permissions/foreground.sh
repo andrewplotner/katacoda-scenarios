@@ -2,7 +2,7 @@
 
 cd /root
 
-touch {a,b,c, check.sh}
+touch {a,b,c,check.sh}
 
 echo "bash /tmp/deploy.sh" > check.sh
 
