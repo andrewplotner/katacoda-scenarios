@@ -23,6 +23,10 @@
             [
                 {"file": "deploy.sh", "target": "/tmp", "chmod": "+x"},
                 {"file": "startup.sh", "target": "/root", "chmod": "+x"}
+            ],
+            "host02":
+            [ 
+                {"file": "startup.sh", "target": "/root", "chmod": "+x"}
             ]
         }
      },
