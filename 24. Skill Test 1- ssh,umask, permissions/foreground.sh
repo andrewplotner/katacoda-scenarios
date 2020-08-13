@@ -4,7 +4,8 @@ cd /root
 
 touch {a,b,c,check.sh}
 
-echo "bash /tmp/deploy.sh" > check.sh
+echo "#!bin/bash" > check.sh
+echo "bash /tmp/deploy.sh" >> check.sh
 
 useradd -m mary -p password
 
