@@ -1,4 +1,4 @@
-**NOTE: password for bob and mary is password**
+**NOTE: password for mary is password**
 
 *_<pre> Objective 1 </pre>_*
 Enable SSH to Connect Without a Password from `controlplane` to the `mary` User on `node01`
