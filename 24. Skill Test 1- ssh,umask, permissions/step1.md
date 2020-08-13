@@ -11,4 +11,4 @@ Copy All tar Files from `/root` on `controlplane` and then transfer them to `/ho
 Set the Umask So That New Files Are Only Readable and Writeable by the Owner
 
 *_<pre> Objective 4 </pre>_*
-Verify that the deploy.sh script is executable and run it. 
+Verify that the check.sh script is executable and run it. 
