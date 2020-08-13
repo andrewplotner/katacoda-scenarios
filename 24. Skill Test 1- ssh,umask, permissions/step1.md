@@ -1,4 +1,4 @@
-**NOTE: password for mary is password**
+**NOTE: you will want to change mary's password on node01 to something you know**
 
 *_<pre> Objective 1 </pre>_*
 Create a user `mary` on `controlpanel` Enable SSH to Connect Without a Password from `mary` on `controlplane` to user `mary` on `node01`
