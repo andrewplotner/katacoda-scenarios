@@ -6,7 +6,6 @@
         "steps": [
             {
                 "title": "Step 1 - enabling and adding a rule",
-                "courseData": "step1-background.sh",
                 "text": "step1.md",
                 "answer": "step1-answer.md"
             }
