@@ -9,6 +9,7 @@
                 "text": "step0.md",
                 "code": "background.sh"
             },
+            {
                 "title": "Step 1 - Skill Test",
                 "text": "step1.md",
                 "answer": "step1-answer.md"
