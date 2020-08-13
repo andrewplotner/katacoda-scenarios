@@ -2,7 +2,7 @@
 
 cd /root
 ls
-wait -n 10
+sleep 10
 startup.sh &
 
 
