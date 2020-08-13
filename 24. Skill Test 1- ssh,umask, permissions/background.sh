@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd /root
-bash startup.sh &
+bash /root/startup.sh &
 
 
 
