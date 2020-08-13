@@ -22,12 +22,9 @@
                 {"file": "startup.sh", "target": "/root", "chmod": "+x"}
                 ]
             },
-        "intro": 
-            {
-            "text": "intro.md"            
-            }
-    },
+        },
     "environment": {
+        "hideintro": true,
         "uilayout": "terminal-terminal"
     },
     "backend": {
