@@ -30,10 +30,11 @@ fi
 }
 
 ################checks###########################
+RESET=`tput sgr0'
+
 SSHCHECK=$( ls /home/mary/.ssh | grep authorized_keys )
 
 comparison "${SSHCHECK}" "authorized_keys" "1"
-
 
 TARCHECK=$( cat /home/mary/tar-output.log | grep "deploy.sh" )
 
