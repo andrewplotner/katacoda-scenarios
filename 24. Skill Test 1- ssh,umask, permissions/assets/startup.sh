@@ -1,6 +1,5 @@
 #!/bin/bash
 
-cd /root ;
 
 touch {a,b,c,check.sh} ;
 
