@@ -1,7 +1,7 @@
 <pre>
 [server1]$ ssh-keygen
 Then run:
-[server1]$ scp /home/bob/.ssh/id_rsa mary@node01:~/.ssh/authorized_keys
+[server1]$ scp /home/mary/.ssh/id_rsa mary@node01:~/.ssh/authorized_keys
 </pre>
 <pre>
 [server1]$ scp /root/*.gz mary@node01:~/
