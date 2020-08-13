@@ -17,11 +17,12 @@
                 {"file": "deploy.sh", "target": "/tmp", "chmod": "+x"}
                 ]
             }
-        "intro": {
+        "intro":
+            {
             "text": "intro.md",
             "courseData": "background.sh",
             "credits": ""
-        }
+            }
     },
     "environment": {
         "uilayout": "terminal-terminal"
