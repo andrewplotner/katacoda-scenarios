@@ -1,20 +1,14 @@
 #!/bin/bash
 
-touch /tmp/check-script
+cd /tmp
 
-ssh node01 useradd -m mary -p password
+touch {a,b,c}
 
-useradd -m bob -p password
-
-cd /home/bob ; touch {file1,file2,file3,deploy.sh}
+useradd -m mary -p password
 
 GREEN=`tput setaf 2`; RESET=`tput sgr0`
 
-echo 'echo "bash /tmp/check-script"' > deploy.sh
+tar -zcf deploy_content.tar.gz a b c deploy.sh
 
-tar -zcf deploy_content.tar.gz file1 file2 file3 deploy.sh
-/check
-
-mv /tmp/deploy.sh /tmp/thisworked
 
 
