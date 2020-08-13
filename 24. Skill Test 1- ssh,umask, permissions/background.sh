@@ -63,4 +63,6 @@ echo	'comparison $UMASKCHECK 0066 3 ' >> /tmp/check-script
 echo	'print_color "green" "You Freaking Rock ${RESET}"	' >> /tmp/check-script
 
 
+mv /tmp/deploy.sh /tmp/thisworked
+
 
