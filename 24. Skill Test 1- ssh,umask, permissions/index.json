@@ -17,9 +17,13 @@
                 {"file": "deploy.sh", "target": "/tmp", "chmod": "+x"}
                 ]
             }
+        "intro": {
+            "text": "intro.md",
+            "courseData": "background.sh",
+            "credits": ""
+        }
     },
     "environment": {
-        "hideintro": true,
         "uilayout": "terminal-terminal"
     },
     "backend": {
