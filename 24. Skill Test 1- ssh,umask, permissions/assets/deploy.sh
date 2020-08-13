@@ -38,7 +38,7 @@ comparison "${SSHCHECK}" "authorized_keys" "1"
 
 TARCHECK=$( cat /home/mary/tar-output.log | grep "check.sh" )
 
-comparison "${TARCHECK}" "file*" "2" 
+comparison "${TARCHECK}" "check.sh" "2" 
 
 UMASKCHECK=$( umask )
 
