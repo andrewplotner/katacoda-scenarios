@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd /root
-wait -10
+wait -n 10
 startup.sh &
 
 
