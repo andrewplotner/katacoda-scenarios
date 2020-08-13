@@ -1,0 +1,25 @@
+{
+    "title": "24. Skill Test- ssh, umask, file permissions ",
+    "description": "Skill test",
+    "noindex": true,
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1 - enabling and adding a rule",
+                "courseData": "step1-background.sh",
+                "text": "step1.md",
+                "answer": "step1-answer.md"
+            }
+        ],
+        "assets": {
+            "host01": [
+                {"file": "deploy.sh", "target": "/tmp", "chmod": "+x"}
+    },
+    "environment": {
+        "hideintro": true,
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "imageid": "kubernetes-cluster"
+    }
+}
