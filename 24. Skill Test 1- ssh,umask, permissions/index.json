@@ -15,7 +15,7 @@
             "host01": [
                 {"file": "deploy.sh", "target": "/tmp", "chmod": "+x"}
                 ]
-            }
+            },
         "intro": 
             {
             "text": "intro.md",
