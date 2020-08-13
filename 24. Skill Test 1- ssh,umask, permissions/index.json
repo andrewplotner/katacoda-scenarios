@@ -14,7 +14,7 @@
             {
             "host01": [
                 {"file": "deploy.sh", "target": "/tmp", "chmod": "+x"},
-                {"file": "startup.sh", "target": "/tmp", "chmod": "+x"}
+                {"file": "startup.sh", "target": "/root", "chmod": "+x"}
                 ]
             },
         "intro": 
