@@ -19,9 +19,7 @@
         "intro": 
             {
             "text": "intro.md",
-            "host01: [
-                "courseData": "background.sh"
-                ]
+            "code": "background.sh"
             }
     },
     "environment": {
