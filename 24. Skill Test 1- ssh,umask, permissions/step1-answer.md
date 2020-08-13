@@ -1,6 +1,4 @@
 <pre>
-[server1]$ useradd -m bob
-[server1]$ su bob ; cd ~
 [server1]$ ssh-keygen
 Then run:
 [server1]$ scp /home/bob/.ssh/id_rsa mary@node01:~/.ssh/authorized_keys
