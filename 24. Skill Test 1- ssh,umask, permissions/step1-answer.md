@@ -1,4 +1,5 @@
 <pre>
+[server1]$ su mary ; cd ~
 [server1]$ ssh-keygen
 Then run:
 [server1]$ scp /home/mary/.ssh/id_rsa mary@node01:~/.ssh/authorized_keys
