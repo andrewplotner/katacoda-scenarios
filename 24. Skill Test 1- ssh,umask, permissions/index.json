@@ -7,11 +7,11 @@
         "steps": 
         [
             {
-                "title": "Step0 - Intro",
+                "title": "Intro",
                 "text": "step0.md"
             },
             {
-                "title": "Step 1 - Skill Test",
+                "title": "Skill Test",
                 "text": "step1.md",
                 "answer": "step1-answer.md",
                 "code": "background.sh"
