@@ -3,7 +3,8 @@
     "description": "Skill test",
     "noindex": true,
     "details": {
-        "steps": [
+        "steps": 
+        [
             {
                 "title": "Step0 - Intro",
                 "text": "step0.md",
@@ -16,12 +17,14 @@
             }
         ],
         "assets":
-            {
-            "host01": [
+        {
+            "host01": 
+            [
                 {"file": "deploy.sh", "target": "/tmp", "chmod": "+x"},
                 {"file": "startup.sh", "target": "/root", "chmod": "+x"}
-                ]
-        },
+            ]
+        }
+     },
     "environment": {
         "hideintro": true,
         "uilayout": "terminal-terminal"
