@@ -43,7 +43,7 @@ PERSISTENCECHECK=$( cat /etc/fstab | grep "/mount/gpt" | awk '{print $3}' )
 
 comparison $PERSISTENCECHECK xfs "3" 
 
-MOUNTCHECK=$( lsblk | grep /mount/mbr | awk '{print $7}'
+MOUNTCHECK=$( lsblk | grep /mount/mbr | awk '{print $7}')
 
 comparison $MOUNTCHECK "/mount/mbr" "4"
 
