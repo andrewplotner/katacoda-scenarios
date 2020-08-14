@@ -7,3 +7,4 @@ EXT4
 Mounting
 Persistence
 </pre>
+**<pre> please be patient while all needed items are installed, once screen clears, you may continue </pre>**
