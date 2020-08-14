@@ -1,1 +1,1 @@
-[ -e /tmp/check ] && echo done
+[ -e /tmp/check ] && echo "done"
