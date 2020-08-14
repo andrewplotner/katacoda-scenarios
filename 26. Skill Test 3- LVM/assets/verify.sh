@@ -30,7 +30,7 @@ if [[ $1 == $2 ]]
 then
 print_color "green" "Objective ${3} Complete"
 else
-print_color "red" "Objective ${3} Failed ${NC}"
+print_color "red" "Objective ${3} Failed"
 exit 1 
 fi
 }
