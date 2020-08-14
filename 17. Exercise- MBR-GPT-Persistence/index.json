@@ -7,6 +7,7 @@
             {
                 "title": "Step 1 - MBR and GPT",
                 "text": "step1.md",
+                "code": "step1-foreground.sh",
                 "answer": "step1-answer.md"
             },
             {
@@ -17,10 +18,30 @@
             {
                 "title": "Step 3 - Make that mount persistent",
                 "text": "step3.md",
-                "answer": "step3-answer.md",
-                "verify": "step3-verify.sh"
-            }
-        ]
+                "answer": "step3-answer.md"
+            },
+            {
+                "title": "Step 3 - Make that mount persistent",
+                "text": "step3.md",
+                "answer": "step3-answer.md"
+            },
+            {
+                "title": "Step 4 - Install an NFS",
+                "text": "step4.md",
+                "answer": "step4-answer.md"
+            },
+            
+        ],
+        "assets": {
+            "host01":
+            [
+                {"file": "verify.sh", "target": "/tmp", "chmod": "+x"}
+            ],
+            "host02":
+            [
+                {"file": "verify2.sh", "target": "/tmp", "chmod": "+x"}
+            ]
+        }
     },
     "environment": {
         "hideintro": true,
