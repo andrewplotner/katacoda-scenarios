@@ -1,6 +1,6 @@
 #!/bin/bash
 
 apt-get install -y gdisk xfsprogs
-wait 15
+wait 35
 
 clear 
