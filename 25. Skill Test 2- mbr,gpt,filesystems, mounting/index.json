@@ -1,0 +1,31 @@
+{
+    "title": "25. gpt,mbr,mkfs, mounting ",
+    "description": "Skill test 2",
+    "noindex": true,
+    "details": {
+        "steps": [
+            {
+                "title": "Intro",
+                "code": "foreground.sh",
+                "text": "step0.md"
+            },
+            {
+                "title": "Skill Test",
+                "code": "step1-foreground.sh",
+                "text": "step1.md",
+                "answer": "step1-answer.md",
+                "verify": "step1-verify.sh"
+            }
+        ],
+        "assets": {
+            "host01": [
+                {"file": "verify.sh", "target": "/tmp", "chmod": "+x"}
+    },
+    "environment": {
+        "hideintro": true,
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "imageid": "ubuntu:2004"
+    }
+}
