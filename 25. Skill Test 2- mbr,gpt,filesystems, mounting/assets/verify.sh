@@ -1,5 +1,11 @@
 
 #!/bin/bash
+### Variables####
+#
+RESET=$(tput sgr0)
+#
+### Functions###
+#
 ################################
 #Description of function: Print a given message in color
 #Arguments:"color""text"
@@ -13,13 +19,12 @@ case $1 in
 "NC")COLOR="\033[0m";;
 "*")COLOR="\033[0m";;
 esac
-echo -e "${COLOR} $2 ${NC}"
+echo -e "${COLOR} $2 ${RESET}"
 }
-
-############################' >> /tmp/check-script
-#Description: Compares two strings' >> /tmp/check-script
-#Arguments: String1 String2 number' >> /tmp/check-script
-###########################' >> /tmp/check-script
+############################
+#Description: Compares two strings
+#Arguments: String1 String2 number
+###########################
 function comparison(){
 if [[ $1 == $2 ]]
 then
@@ -29,8 +34,9 @@ print_color "red" "Objective ${3} Failed ${NC}"
 exit 1 
 fi
 }
-
-################checks###########################
+#
+####Body of Code ####
+#
 MBRCHECK=$( gdisk -l /dev/vdb | grep -v Linux | awk '{print $4 $5}' | grep "2.0GiB" )
 
 comparison "${MBRCHECK}" "2.0GiB" "1"
@@ -50,5 +56,3 @@ comparison $MOUNTCHECK "/mount/mbr" "4"
 
 print_color "green" "You Freaking Rock "
 
-
-touch /tmp/check
