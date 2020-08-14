@@ -18,8 +18,10 @@
             }
         ],
         "assets": {
-            "host01": [
+            "host01": 
+            [
                 {"file": "verify.sh", "target": "/tmp", "chmod": "+x"}
+            ]
     },
     "environment": {
         "hideintro": true,
