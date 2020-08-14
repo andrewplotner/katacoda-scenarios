@@ -2,6 +2,7 @@
 On Host1
 systemctl start {rpcbind,nfs-server,rpc-statd,nfs-idmapd}
 mkdir /nfs
+chmod 777 /nfs
 echo "/nfs <IP of host2>(rw)" >> /etc/exports
 exportfs -a
 </pre>
