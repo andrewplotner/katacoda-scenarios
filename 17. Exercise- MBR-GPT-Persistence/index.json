@@ -29,7 +29,7 @@
                 "title": "Step 4 - Install an NFS",
                 "text": "step4.md",
                 "answer": "step4-answer.md"
-            },
+            }
             
         ],
         "assets": {
