@@ -10,6 +10,7 @@ function print_color(){
 case $1 in
 "green")COLOR="\033[0;32m";;
 "red")COLOR="\033[0;32m";;
+"NC")COLOR="\033[0m";;
 "*")COLOR="\033[0m";;
 esac
 echo -e "${COLOR} $2 ${NC}"
@@ -24,7 +25,7 @@ if [[ $1 == $2 ]]
 then
 print_color "green" "Objective ${3} Complete"
 else
-print_color "red" "Objective ${3} Failed ${RESET}"
+print_color "red" "Objective ${3} Failed ${NC}"
 exit 1 
 fi
 }
@@ -47,7 +48,7 @@ MOUNTCHECK=$( lsblk | grep /mount/mbr | awk '{print $7}')
 
 comparison $MOUNTCHECK "/mount/mbr" "4"
 
-print_color "green" "You Freaking Rock ${RESET}"
+print_color "green" "You Freaking Rock "
 
 
 touch /tmp/check
