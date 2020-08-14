@@ -9,7 +9,8 @@ echo -e "${COLOR} $2 ${NC}"
 }
 
 apt-get install -y gdisk xfsprogs
-sleep 35
+
+sleep 40
 
 clear 
 print_color "green" Please Continue" 
