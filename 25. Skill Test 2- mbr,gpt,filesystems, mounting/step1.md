@@ -1,16 +1,14 @@
-**NOTE: password for bob and mary is password**
-
 *_<pre> Objective 1 </pre>_*
-Enable SSH to Connect Without a Password from the `bob` User on `controlplane` to the `mary` User on `node01`
+Create a `2GB GPT` partition from /dev/vdb
 
 *_<pre> Objective 2 </pre>_*
-Copy All tar Files rom `/home/bob/` on `controlplane` to `/home/mary/` on `node01`, and Extract Them Making Sure the Output is Redirected to `/home/mary/tar-output.log` 
-
+Create a `2GB MBR` partition from /dev/vdb
 
 *_<pre> Objective 3 </pre>_*
-Set the Umask So That New Files Are Only Readable and Writeable by the Owner
+Format GPT partition with XFS and Mount the device in `/mount/gpt` peristently
 
 *_<pre> Objective 4 </pre>_*
-Verify that the deploy.sh script is executable and run it. 
+Format the MBR Parition with ext4 and mount the device in `/mount/mbr`
 
-*_<pre> Objective 1 </pre>_*
+*_<pre> Objective 5 </pre>_*
+Change the permissions of /tmp/verify.sh if needed and execute it. 
