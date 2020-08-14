@@ -15,7 +15,7 @@ RESET=$(tput sgr0)
 function print_color(){ 
 case $1 in
 "green")COLOR="\033[0;32m";;
-"red")COLOR="\033[0;32m";;
+"red")COLOR="\033[0;31m";;
 "NC")COLOR="\033[0m";;
 "*")COLOR="\033[0m";;
 esac
@@ -30,7 +30,7 @@ if [[ $1 == $2 ]]
 then
 print_color "green" "Objective ${3} Complete"
 else
-print_color "red" "Objective ${3} Failed ${NC}"
+print_color "red" "Objective ${3} Failed"
 exit 1 
 fi
 }
