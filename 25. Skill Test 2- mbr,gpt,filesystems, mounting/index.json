@@ -12,8 +12,7 @@
             {
                 "title": "Skill Test",
                 "text": "step1.md",
-                "answer": "step1-answer.md",
-                "verify": "step1-verify.sh"
+                "answer": "step1-answer.md"
             }
         ],
         "assets": {
