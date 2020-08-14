@@ -3,4 +3,4 @@
 <pre> 3. Make the NFS shareable to host2 </pre>
 <pre> 4. On node01 mount the NFS share at `/mnt/nfs` </pre>
 
-Once mounted run this command: `bash /tmp/verify2.sh`{{execute}}
+Once mounted run this command: `[[ -e /nfs/testfile.txt ]] && echo "Awesome Job, You're Done" || echo "Try Again" `{{execute}}
