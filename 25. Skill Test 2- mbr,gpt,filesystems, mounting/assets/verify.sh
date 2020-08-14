@@ -50,4 +50,4 @@ comparison $MOUNTCHECK "/mount/mbr" "4"
 print_color "green" "You Freaking Rock ${RESET}"
 
 
-
+touch /tmp/check
