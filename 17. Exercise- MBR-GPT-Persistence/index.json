@@ -31,17 +31,7 @@
                 "answer": "step4-answer.md"
             }
             
-        ],
-        "assets": {
-            "host01":
-            [
-                {"file": "verify.sh", "target": "/tmp", "chmod": "+x"}
-            ],
-            "host02":
-            [
-                {"file": "verify2.sh", "target": "/tmp", "chmod": "+x"}
-            ]
-        }
+        ]
     },
     "environment": {
         "hideintro": true,
