@@ -22,6 +22,7 @@
             [
                 {"file": "verify.sh", "target": "/tmp", "chmod": "+x"}
             ]
+        }
     },
     "environment": {
         "hideintro": true,
