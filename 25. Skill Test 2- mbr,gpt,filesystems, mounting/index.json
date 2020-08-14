@@ -11,7 +11,6 @@
             },
             {
                 "title": "Skill Test",
-                "code": "step1-foreground.sh",
                 "text": "step1.md",
                 "answer": "step1-answer.md",
                 "verify": "step1-verify.sh"
