@@ -3,14 +3,12 @@
   "courses": [
     {
       "pathway_id": "katacoda-scenarios",
-      "id": "Centos Playground",
       "course_id": "Centos Playground",
       "title": "1. Centos Playground",
       "description": "Playground Terminal to test out and learn the basic linux commands"
     },
     {
       "pathway_id": "katacoda-scenarios",
-      "id": "locate and Find",
       "course_id": "locate and Find",
       "title": "02. Exercise- Locate and Find",
       "description": "To introduce users to the locate and find utilities"
