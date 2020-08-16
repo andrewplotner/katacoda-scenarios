@@ -2,13 +2,11 @@
   "title": "RHCSA Labs",
   "courses": [
     {
-      "pathway_id": "katacoda-scenarios",
       "course_id": "Centos Playground",
       "title": "1. Centos Playground",
       "description": "Playground Terminal to test out and learn the basic linux commands"
     },
     {
-      "pathway_id": "katacoda-scenarios",
       "course_id": "locate and Find",
       "title": "02. Exercise- Locate and Find",
       "description": "To introduce users to the locate and find utilities"
